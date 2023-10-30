@@ -1,9 +1,47 @@
-## OOP-SVG-Logo-Maker
+# OOP-SVG-Logo-Maker
 
-# Description
-This project is an Object-Oriented Programming (OOP) SVG Logo Maker that allows users to generate simple SVG logos by specifying text, text color, shape, and shape color. The motivation behind building this project was to practice OOP principles in JavaScript and create a practical application for generating SVG logos dynamically.
+## Description
+This project is an Object-Oriented Programming (OOP) SVG Logo Maker, implemented as a Node.js command-line application. The primary goal is to interactively take user input to generate a customizable logo and save it as an SVG file. The application prompts the user to select a color and shape, provide text for the logo, and then saves the dynamically generated SVG to a .svg file.
 
-- Motivation: To practice and demonstrate Object-Oriented Programming principles in JavaScript.
-- Why this project? To create a useful tool for generating SVG logos with customizable text and shapes.
-- Problem it solves: Provides a simple way to create and customize SVG logos for various use cases.
-- What did you learn? Reinforced OOP concepts in JavaScript, file handling, and interacting with the command line.
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+To run the OOP SVG Logo Maker locally, follow these steps:
+
+1. To run the OOP SVG Logo Maker locally, follow these steps: git clone https://github.com/MFMcNolt/OOP-SVG-Logo-Maker.git
+
+2. Navigate to the Project Directory: cd OOP-SVG-Logo-Maker
+
+3. Install Dependencies: npm install
+
+In the above example, the line `npm install` indicates the installation of Node.js dependencies using the npm package manager. Users can run this command in the terminal to automatically install the dependencies listed in the `package.json` file of your project.
+
+
+Now, your development environment is set up, and you can proceed to use the application.
+
+## Usage
+
+1. Run the application in CL: node index.js
+2. Follow the Prompts:
+    Enter up to three characters for the text.
+    Enter text color (keyword or hexadecimal).
+    Select a shape (circle, triangle, square).
+    Enter shape color (keyword or hexadecimal).
+3. View the Generated SVG Logo:  The application will create an SVG logo based on your input and save it as logo.svg in the project directory.
+
+`````````
+Now, you can find the generated SVG logo as logo.svg.
+Note: Make sure you have Node.js installed on your machine before following these steps. As well as, Inquirer and Jest.
+
+## Credits
+Inquirer: Used for user input prompts.
+Node.js fs Module: Utilized for file system operations.
+
+## License
+This project is licensed under the MIT License.
+
+
