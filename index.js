@@ -33,24 +33,27 @@ async function generateLogo() {
 
   switch (userInput.shape) {
     case 'circle':
-      svgString = `<svg width="300" height="200">
-        <circle cx="150" cy="100" r="50" fill="${userInput.shapeColor}" />
-        <text x="150" y="100" fill="${userInput.textColor}" text-anchor="middle">${userInput.text}</text>
-      </svg>`;
+      svgString = `<?xml version="1.0" encoding="UTF-8"?>
+        <svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
+          <circle cx="150" cy="100" r="50" fill="${userInput.shapeColor}" />
+          <text x="150" y="100" fill="${userInput.textColor}" text-anchor="middle">${userInput.text}</text>
+        </svg>`;
       break;
 
     case 'triangle':
-      svgString = `<svg width="300" height="200">
-        <polygon points="150,50 100,150 200,150" fill="${userInput.shapeColor}" />
-        <text x="150" y="100" fill="${userInput.textColor}" text-anchor="middle">${userInput.text}</text>
-      </svg>`;
+      svgString = `<?xml version="1.0" encoding="UTF-8"?>
+        <svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
+          <polygon points="150,50 100,150 200,150" fill="${userInput.shapeColor}" />
+          <text x="150" y="100" fill="${userInput.textColor}" text-anchor="middle">${userInput.text}</text>
+        </svg>`;
       break;
 
     case 'square':
-      svgString = `<svg width="300" height="200">
-        <rect x="100" y="50" width="100" height="100" fill="${userInput.shapeColor}" />
-        <text x="150" y="100" fill="${userInput.textColor}" text-anchor="middle">${userInput.text}</text>
-      </svg>`;
+      svgString = `<?xml version="1.0" encoding="UTF-8"?>
+        <svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
+          <rect x="100" y="50" width="100" height="100" fill="${userInput.shapeColor}" />
+          <text x="150" y="100" fill="${userInput.textColor}" text-anchor="middle">${userInput.text}</text>
+        </svg>`;
       break;
 
     default:
@@ -69,6 +72,5 @@ async function generateLogo() {
     }
   });
 }
-
 // Run the logo generation function
 generateLogo();
