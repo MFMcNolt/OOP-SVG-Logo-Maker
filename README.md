@@ -31,10 +31,14 @@ Now, your development environment is set up, and you can proceed to use the appl
     Enter text color (keyword or hexadecimal).
     Select a shape (circle, triangle, square).
     Enter shape color (keyword or hexadecimal).
-3. View the Generated SVG Logo:  The application will create an SVG logo based on your input and save it as logo.svg in the project directory.
 
-`````````
+![Model][def]
+
+3. View the Generated SVG Logo:  The application will create an SVG logo based on your input and save it as logo.svg in the project directory.
 Now, you can find the generated SVG logo as logo.svg.
+
+![Model][def2]
+
 Note: Make sure you have Node.js installed on your machine before following these steps. As well as, Inquirer and Jest.
 
 ## Credits
@@ -45,3 +49,7 @@ Node.js fs Module: Utilized for file system operations.
 This project is licensed under the MIT License.
 
 
+
+
+[def]: ./examples/Screenshot.png
+[def2]: ./examples/Screenshot2.png
