@@ -1,6 +1,6 @@
 const fs = require('fs');
 const { prompt } = require('inquirer');
-const { Circle, Triangle, Square } = require('./shapes');
+const { Circle, Triangle, Square } = require('./lib/shapes');
 
 async function generateLogo() {
     // Prompt the user for input
