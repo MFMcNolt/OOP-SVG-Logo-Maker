@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/MFMcNolt/OOP-SVG-Logo-Maker#readme",
   "dependencies": {
-    "inquirer": "^9.2.11"
+    "inquirer": "^9.2.11",
+    "svg-builder": "^2.0.0"
   }
 }
