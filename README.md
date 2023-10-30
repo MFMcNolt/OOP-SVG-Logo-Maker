@@ -25,6 +25,8 @@ Now, your development environment is set up, and you can proceed to use the appl
 
 ## Usage
 
+Please see a video of the application in use: https://drive.google.com/file/d/1OIUSoi7iVR-KuqirMrEESm8VOgDtp54w/view?usp=sharing
+
 1. Run the application in CL: node index.js
 2. Follow the Prompts:
     Enter up to three characters for the text.
