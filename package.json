@@ -1,32 +1,15 @@
 {
   "name": "oop-svg-logo-maker",
   "version": "1.0.0",
-  "description": "logo maker",
+  "description": "",
   "main": "index.js",
-  "directories": {
-    "example": "examples",
-    "lib": "lib"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MFMcNolt/OOP-SVG-Logo-Maker.git"
-  },
-  "keywords": [
-    "svg",
-    "logo",
-    "maker"
-  ],
-  "author": "Marion Ferguson McNulty",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MFMcNolt/OOP-SVG-Logo-Maker/issues"
-  },
-  "homepage": "https://github.com/MFMcNolt/OOP-SVG-Logo-Maker#readme",
   "dependencies": {
-    "inquirer": "^9.2.11",
-    "svg-builder": "^2.0.0"
+    "inquirer": "^8.2.0"
   }
 }
